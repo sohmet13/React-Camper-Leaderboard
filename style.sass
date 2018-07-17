@@ -1,0 +1,47 @@
+body
+  background: grey
+  min-width: 1200px
+header
+  background: green
+  height: 50px
+  width: 100%
+table
+  margin-top: 30px
+  display: inline-block
+  border: 1px
+  font-size: 1.3em
+  background: white
+  caption
+    background: green
+    color: white
+    font-size: 1.5em
+    width: 1150px
+  .id
+    width: 10px
+    text-align: left
+  th.name, .id
+    padding-left: 10px
+  .name
+    width: 200px
+    text-align: left
+    img
+      margin: 0 10px
+      width: 40px
+      border: 2px green solid
+      border-radius: 5px
+  .days
+    width: 150px
+  .all
+    width: 130px
+  tr
+    height: 50px
+    &:nth-child(even)
+      background: #f7f7f7
+  td, th
+    border: 3px #dedede solid
+  #first
+    background: #f7f7f7
+    .days, .all
+      cursor: pointer
+  th.days:hover, th.all:hover
+      text-decoration: underline
